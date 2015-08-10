@@ -5,5 +5,7 @@ init:
 
 version: 1.0.{build}
 
-build:
-  verbosity: detailed
+build_script:
+  - build
+
+test: off
